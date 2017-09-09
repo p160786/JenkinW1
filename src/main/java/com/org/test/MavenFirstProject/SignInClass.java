@@ -20,7 +20,7 @@ public void test()
    // driver.findElement(By.xpath("//*[@id='password']")).sendKeys("qwe@455");
    // driver.findElement(By.xpath("//*[@id='repassword']")).sendKeys("qwe@455");
     //driver.findElement(By.xpath("//*[@id='sub_btn_setpass']")).click();
-    driver.findElement(By.xpath("//*[@id='login-mobile']")).sendKeys("1564505674");
+    driver.findElement(By.xpath("//*[@id='login-mobile']")).sendKeys("156450567");
     driver.findElement(By.id("login-password")).sendKeys("qwe@455");
     driver.findElement(By.id("sub_btn")).click();
 }
