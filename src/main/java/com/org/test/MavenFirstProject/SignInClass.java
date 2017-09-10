@@ -6,8 +6,9 @@ import org.openqa.selenium.WebDriver;
 
 public class SignInClass{
 
-    WebDriver driver;
-
+    WebDriver driver;public SignInClass() {
+		// TODO Auto-generated constructor stub
+	}
 public SignInClass(WebDriver driver2)
 {
 driver = driver2;
@@ -20,7 +21,7 @@ public void test()
    // driver.findElement(By.xpath("//*[@id='password']")).sendKeys("qwe@455");
    // driver.findElement(By.xpath("//*[@id='repassword']")).sendKeys("qwe@455");
     //driver.findElement(By.xpath("//*[@id='sub_btn_setpass']")).click();
-    driver.findElement(By.xpath("//*[@id='login-mobile']")).sendKeys("156450567");
+    driver.findElement(By.xpath("//*[@id='login-mobile']")).sendKeys("156450554");
     driver.findElement(By.id("login-password")).sendKeys("qwe@455");
     driver.findElement(By.id("sub_btn")).click();
 }
